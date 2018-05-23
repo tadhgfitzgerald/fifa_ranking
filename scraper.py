@@ -11,7 +11,7 @@ if __name__ == '__main__':
     if not os.path.exists('.cache'):
         os.makedirs('.cache')
 
-    first_rank, last_rank = 2, 285
+    first_rank, last_rank = 2, 286
     fifa_url = 'https://www.fifa.com/fifa-world-ranking/ranking-table/men/rank={}/index.html'
 
     full_results = []
